@@ -25,7 +25,9 @@ Usage
 * Initializing:
 
 $foo = new NodeWrapper\Node($node);
+
 $foo = NodeWrapper\Node::createByNid($node->nid);
+
 $foo = NodeWrapper\Node::createByType('page');
 
 * get/set field value:
