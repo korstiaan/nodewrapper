@@ -1,0 +1,6 @@
+name 			= "Node wrapper"
+description 	= "Node wrapper"
+core 			= "7.x"
+dependencies[] 	= entitybase
+dependencies[] 	= node
+php 			= 5.3.2
