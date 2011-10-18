@@ -33,6 +33,7 @@ $foo = NodeWrapper\Node::createByType('page');
 * get/set field value:
 
 $value = $foo->get('field_bar');
+
 $foo->set('field_crux','lipsum');
 
 Look at the inline (phpdoc) documentation for more info.
