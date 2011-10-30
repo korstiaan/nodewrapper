@@ -72,18 +72,7 @@ class Node extends EntityBase implements NodeInterface
 	 */
 	public function getEntityType() 	{ return self::TYPE; }
 
-	/**
-	 * 
-	 * Returns the id of the node. 
-	 * 
-	 * @see EntityBase.EntityInterface::getId()
-	 * 
-	 * @return	integer|boolean			nid if set, false otherwise
-	 */
-	public function getId()
-	{
-		return isset($this->getEntity()->nid) ? (int)$this->getEntity()->nid : false;
-	}
+	
 	/**
 	 * 
 	 * Returns node wrapper for node of given id
